@@ -1,0 +1,46 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #faf8f7;
+}
+
+#content {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    margin: 0px;
+    padding: 0px;
+    padding-top: 4px;
+    background-color: #ec7000;
+    border: springgreen solid 3px;
+    text-align: center;
+}
+
+#logo{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    border: solid 6px steelblue;
+}
+
+#img_logo { 
+    margin: 0px;
+    padding: 0px;
+    height: 100px;
+    width: 100px;
+    border: black 3px solid;
+}
+
+
+
+.nav_items{
+    margin: 0px;
+    padding: 0px;
+ border: 6px solid yellow;
+ text-align: center;
+ list-style: none;
+ display: inline;
+}
+
