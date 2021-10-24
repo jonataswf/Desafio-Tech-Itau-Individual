@@ -50,8 +50,6 @@ function pesquisacep(valor) {
             //Insere script no documento e carrega o conteúdo.
             document.body.appendChild(script);
 
-            console.log(document.getElementById("bairro").value);
-
         } //end if.
         else {
             //cep é inválido.

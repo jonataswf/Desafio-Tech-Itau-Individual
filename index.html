@@ -5,16 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/estilo.css" type="text/css">
-    <script type="text/javascript" src="../javascript/validacao.js"></script>
-    <script type="text/javascript" src="../javascript/valida_cep.js"></script>
+    <link rel="stylesheet" href="css/estilo.css" type="text/css">
+    <script type="text/javascript" src="javascript/validacao.js"></script>
+    <script type="text/javascript" src="javascript/valida_cep.js"></script>
     <title>Desafio Tech itau</title>
 </head>
 
 <body>
     <header>
         <div id="logo">
-            <img id="img_logo" src="../imagens/itau_logo" alt="logo itau">
+            <img id="img_logo" src="../imagens/logo-itau.png" alt="logo itau">
         </div>
     </header>
     <main>
@@ -26,7 +26,7 @@
                     </div>
                     <div>
                         <label for="nome"><strong>Nome</strong></label><br>
-                        <input type="text" name="nome" id="nome" placeholder="Digite seu nome" autocomplete="off">
+                        <input type="text" name="nome" id="nome" placeholder="Digite seu nome">
                     </div>
 
                     <div>
@@ -82,17 +82,17 @@
                     <div>
                         <label for="telfixo"><strong>Telefone Fixo</strong></label><br>
                         <input type="tel" name="telfixo" id="telfixo" placeholder="Digite o Telefone Fixo"
-                            autocomplete="off">
+                            autocomplete="off" maxlength="10">
                     </div>
 
                     <div>
                         <label for="telcelular"><strong>Telefone Celular</strong></label><br>
                         <input type="tel" name="telcelular" id="telcelular" placeholder="Digite o Telefone Celular"
-                            autocomplete="off">
+                            autocomplete="off" maxlength="11">
                     </div>
 
                     <div id="botao">
-                        <button type="submit" name="botao" id="botao" onclick="validarForm()">Cadastrar</button>
+                        <button type="button" name="botao" id="botao" onclick="validarForm()">Cadastrar</button>
                     </div>
                 </fieldset>
             </form>
