@@ -26,14 +26,13 @@
                     </div>
                     <div>
                         <label for="nome"><strong>Nome</strong></label><br>
-                        <input type="text" name="nome" id="nome" placeholder="Digite seu nome" autocomplete="off"
-                            required>
+                        <input type="text" name="nome" id="nome" placeholder="Digite seu nome" autocomplete="off">
                     </div>
 
                     <div>
                         <label for="cpf"><strong>CPF</strong></label><br>
                         <input minlength="11" maxlength="11" type="text" name="cpf" id="cpf"
-                            placeholder="Digite seu CPF" autocomplete="off" required>
+                            placeholder="Digite seu CPF" autocomplete="off">
                     </div>
 
                     <div>
@@ -52,7 +51,7 @@
                     <div>
                         <label for="cep"><strong>CEP</strong></label><br>
                         <input type="text" name="cep" value="" id="cep" placeholder="Digite seu CEP" size="10"
-                            maxlength="9" onblur="pesquisacep(this.value);">
+                            minlength="8" maxlength="8" onblur="pesquisacep(this.value);">
                     </div>
 
                     <div>
@@ -62,8 +61,7 @@
 
                     <div>
                         <label for="numero"><strong>Número</strong></label><br>
-                        <input type="text" name="numero" id="numero" placeholder="Digite o Número" autocomplete="off"
-                            required>
+                        <input type="text" name="numero" id="numero" placeholder="Digite o Número" autocomplete="off">
                     </div>
 
                     <div>
@@ -90,7 +88,7 @@
                     <div>
                         <label for="telcelular"><strong>Telefone Celular</strong></label><br>
                         <input type="tel" name="telcelular" id="telcelular" placeholder="Digite o Telefone Celular"
-                            autocomplete="off" required>
+                            autocomplete="off">
                     </div>
 
                     <div id="botao">
