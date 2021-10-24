@@ -1,3 +1,0 @@
-function oi(){
-    alert("oi");
-}
